@@ -1,0 +1,34 @@
+LAB-03 — Protótipo Godot para Android
+
+ESTADO
+- Projeto-fonte inicial para Godot 4.x.
+- Cena única desenhada por código, sem dependências externas.
+- Resolução de referência: 1280x720, orientação horizontal.
+- Inclui HUD de vida/fome/munições/energia, cenário de laboratório, jogador,
+  criatura que persegue o jogador e reage à lanterna, disparo e recarga.
+
+IMPORTANTE
+Este ZIP contém o código-fonte do protótipo, NÃO um APK já compilado.
+Para gerar o APK é necessário abrir o projeto no Godot 4.x e configurar
+o Android SDK/JDK e os modelos de exportação Android.
+
+TESTE NO PC
+1. Instale Godot 4.x.
+2. Abra o gestor de projetos e importe a pasta deste projeto.
+3. Execute project.godot.
+
+EXPORTAÇÃO ANDROID
+1. No Godot, instale os Export Templates correspondentes à versão.
+2. Configure Android SDK e Java SDK nas Editor Settings.
+3. Em Project > Export, adicione Android.
+4. Defina package name e orientação landscape.
+5. Exporte APK de debug para testes.
+
+CONTROLOS
+- PC: A/D ou setas para mover; Espaço dispara; R recarrega; F liga/desliga lanterna.
+- Android: toque no direcional e nos botões desenhados no ecrã.
+
+NOTA DE DESENVOLVIMENTO
+Esta é uma primeira base funcional/visual. Arte final, animações, colisões
+detalhadas, mira analógica completa, som, inventário, níveis e IA avançada
+são etapas seguintes. Teste e ajuste antes de distribuir.
